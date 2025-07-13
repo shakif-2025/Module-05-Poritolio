@@ -127,3 +127,37 @@ nav ul li a {
 .banner-profile-pic {
   max-width: 584px;
 }
+
+/* main styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* about styles */
+
+.about {
+  text-align: center;
+  margin: 120px 0 100px 0;
+  padding: 100px 120px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+.section-title {
+  margin-bottom: 30px;
+}
+.section-description {
+  margin-bottom: 30px;
+}
+.item-title {
+  font-size: 28px;
+  font-weight: 900;
+}
+.item-description {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: -15px;
+}
