@@ -141,6 +141,7 @@ main {
 }
 main section {
   margin-top: 130px;
+  margin-bottom: 80px;
 }
 /* about styles */
 
@@ -181,4 +182,70 @@ main section {
   padding: 30px;
   box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
   border-radius: 5px;
+}
+
+/* resume container styles */
+
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+.resume-section-title {
+  font-size: 35px;
+  font-weight: 800;
+  line-height: auto;
+}
+.resume-column-title {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: auto;
+}
+
+.experience-title {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: auto;
+  margin-bottom: 0;
+}
+.experience-sub-title {
+  font-size: 20px;
+  font-weight: 700;
+  /* margin-top: -100px; */
+}
+.experience-sub-title,
+.experience-description {
+  color: rgba(117, 117, 117, 1);
+}
+
+.resume button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 55px;
+}
+
+footer {
+  padding: 130px 230px;
+  /* margin: 130px 230px; */
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 120px;
+}
+
+.footer-section-left {
+  width: 50%;
+}
+.footer-section-right {
+  width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+  height: 64px;
+  border-radius: 5px;
+  background-color: #ffff;
+  display: block;
+  padding: 10px 350px 10px 30px;
+  margin-bottom: 24px;
+  border: 0;
 }
