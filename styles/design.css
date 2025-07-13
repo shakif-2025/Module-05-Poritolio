@@ -224,20 +224,20 @@ main section {
 }
 
 footer {
+  /* width: 1600px;
+  margin: 0 auto; */
   padding: 130px 230px;
   /* margin: 130px 230px; */
   display: flex;
-  /* justify-content: space-between; */
-  gap: 120px;
+  justify-content: space-evenly;
+  gap: 30px;
 }
-
 .footer-section-left {
-  width: 50%;
+  margin-left: 200px;
 }
 .footer-section-right {
-  width: 50%;
+  margin-right: 170px;
 }
-
 footer input[type="text"],
 footer input[type="email"],
 footer textarea {
@@ -245,7 +245,11 @@ footer textarea {
   border-radius: 5px;
   background-color: #ffff;
   display: block;
-  padding: 10px 350px 10px 30px;
+  padding: 10px 230px 10px 20px;
   margin-bottom: 24px;
   border: 0;
+}
+
+footer textarea {
+  height: 180px;
 }
