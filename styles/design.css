@@ -1,0 +1,129 @@
+/* open sans style */
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* Shared style */
+.text-primary {
+  color: rgba(253, 110, 10, 1);
+}
+.bg-primary {
+  background-color: #fff8f3;
+}
+.dark-2 {
+  color: rgba(71, 71, 71, 1);
+}
+.dark-3 {
+  color: rgba(117, 117, 117, 1);
+}
+.btn-primary {
+  background: rgba(253, 110, 10, 1);
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: auto;
+  margin-top: 25px;
+  padding: 20px 38px;
+  border-radius: 5px;
+  border: 0;
+}
+.btn-secondary {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(253, 110, 10, 1);
+  line-height: auto;
+  background: rgba(255, 248, 243, 1);
+  padding: 18px 38px;
+  border: 1px solid rgba(253, 110, 10, 1);
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.section-title {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: auto;
+  color: rgba(24, 24, 24, 1);
+}
+.section-description {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  color: rgba(117, 117, 117, 1);
+}
+
+/* Header styles */
+.header {
+  background: url("../images/developer.png"), url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-color: #fff8f3;
+}
+
+/* nav styles */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 210px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+  line-height: auto;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li a {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: auto;
+  text-decoration: none;
+}
+
+/* Banner styles */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 35px 0 230px;
+}
+.banner-content {
+  max-width: 580px;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: bold;
+  line-height: auto;
+  color: rgba(24, 24, 24, 1);
+  margin-top: -40px;
+}
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: auto;
+}
+.banner-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(117, 117, 117, 1);
+  margin-top: -40px;
+}
+
+.banner-profile-pic {
+  max-width: 584px;
+}
